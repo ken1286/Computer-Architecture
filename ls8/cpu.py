@@ -64,6 +64,7 @@ class CPU:
 
     def run(self):
         """Run the CPU."""
+        HLT = 0b00000001
         halted = False
         while not halted:
 
